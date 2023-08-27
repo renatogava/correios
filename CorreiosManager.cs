@@ -12,26 +12,13 @@ namespace Correios.Demo
     {
         private readonly string _correiosUrl = "https://api.correios.com.br";
 
-        //private readonly string _usuario = "ai9tecnologia";
-        private readonly string _usuario = "42781552000124";
+        private readonly string _usuario = "SEU USUÁRIO AQUI";
 
-        /// <summary>
         /// Obtenha o código aqui: https://cws.correios.com.br/dashboard/pesquisa
-        /// </summary>
-        //private readonly string _codigoAcesso = "ruzex2OuTDqnsEBdjCS5NOrKhvX0DpUEhUiVXReo";
-        private readonly string _codigoAcesso = "EYOygPKaGnlYiKPCZNd4lb0XlzcLaVpAQ99hWmdy";
+        private readonly string _codigoAcesso = "SEU CÓDIGO DE ACESSO AQUI";
 
-        /// <summary>
         /// Obtenha o cartão postagem e códigos aqui: https://sfe.correios.com.br/consultarContrato/consultarContrato.jsf#no-back-button
-        /// </summary>
-        //private readonly string _cartaoPostagem = "0077910257";
-        //private readonly string _codigoServicoContratoPAC = "03085";
-        //private readonly string _codigoServicoContratoSedex = "03050";
-        //private readonly string _codigoServicoContratoSedex10 = "04740";
-        //private readonly string _codigoServicoContratoSedexHoje = "05703";
-        //private readonly string _codigoServicoContratoMiniEnvio = "";
-
-        private readonly string _cartaoPostagem = "0077185897";
+        private readonly string _cartaoPostagem = "SEU CARTÁO POSTAGEM AQUI";
         private readonly string _codigoServicoContratoPAC = "03298";
         private readonly string _codigoServicoContratoSedex = "03220";
         private readonly string _codigoServicoContratoSedex10 = "03158";
